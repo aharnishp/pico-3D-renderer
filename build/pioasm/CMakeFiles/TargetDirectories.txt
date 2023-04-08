@@ -1,0 +1,3 @@
+/home/aharnish/pico/myExample/engine3D/build/pioasm/CMakeFiles/pioasm.dir
+/home/aharnish/pico/myExample/engine3D/build/pioasm/CMakeFiles/edit_cache.dir
+/home/aharnish/pico/myExample/engine3D/build/pioasm/CMakeFiles/rebuild_cache.dir
