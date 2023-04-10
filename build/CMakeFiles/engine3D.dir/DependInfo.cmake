@@ -183,7 +183,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "/home/aharnish/pico/myExample/engine3D/model.c" "CMakeFiles/engine3D.dir/model.c.obj" "gcc" "CMakeFiles/engine3D.dir/model.c.obj.d"
   "/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "/home/aharnish/pico/myExample/engine3D/index.cpp" "CMakeFiles/engine3D.dir/index.cpp.obj" "gcc" "CMakeFiles/engine3D.dir/index.cpp.obj.d"
   )

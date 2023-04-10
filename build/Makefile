@@ -1798,30 +1798,6 @@ index.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine3D.dir/build.make CMakeFiles/engine3D.dir/index.cpp.s
 .PHONY : index.cpp.s
 
-model.obj: model.c.obj
-.PHONY : model.obj
-
-# target to build an object file
-model.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine3D.dir/build.make CMakeFiles/engine3D.dir/model.c.obj
-.PHONY : model.c.obj
-
-model.i: model.c.i
-.PHONY : model.i
-
-# target to preprocess a source file
-model.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine3D.dir/build.make CMakeFiles/engine3D.dir/model.c.i
-.PHONY : model.c.i
-
-model.s: model.c.s
-.PHONY : model.s
-
-# target to generate assembly for a file
-model.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine3D.dir/build.make CMakeFiles/engine3D.dir/model.c.s
-.PHONY : model.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2034,9 +2010,6 @@ help:
 	@echo "... index.obj"
 	@echo "... index.i"
 	@echo "... index.s"
-	@echo "... model.obj"
-	@echo "... model.i"
-	@echo "... model.s"
 .PHONY : help
 
 

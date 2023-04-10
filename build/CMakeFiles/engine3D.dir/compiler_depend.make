@@ -2951,10 +2951,6 @@ CMakeFiles/engine3D.dir/index.cpp.obj: ../index.cpp \
   /home/aharnish/pico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
   ../model.h
 
-CMakeFiles/engine3D.dir/model.c.obj: ../model.c
-
-
-../model.c:
 
 ../model.h:
 

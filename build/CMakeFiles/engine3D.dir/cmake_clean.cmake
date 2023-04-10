@@ -132,8 +132,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "CMakeFiles/engine3D.dir/index.cpp.obj"
   "CMakeFiles/engine3D.dir/index.cpp.obj.d"
-  "CMakeFiles/engine3D.dir/model.c.obj"
-  "CMakeFiles/engine3D.dir/model.c.obj.d"
   "engine3D.elf"
   "engine3D.pdb"
 )

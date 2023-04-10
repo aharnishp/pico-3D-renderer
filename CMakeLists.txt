@@ -15,7 +15,6 @@ pico_sdk_init()
 
 add_executable(engine3D
         index.cpp
-        model.c
         model.h
         )
 
