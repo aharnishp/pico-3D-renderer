@@ -14,14 +14,16 @@ Projects orthographic view of given 3D model on single colour OLED screen, writt
 
 - You may use ```rotate_model_from_default()``` function in between draw calls to animate the object as needed.
 
-  
+  ![VideoCapture_20240108-120938](https://github.com/aharnishp/pico-3D-renderer/assets/69157507/5746d709-2d72-49ca-9606-e6ad2b5dd534)
 
-https://github.com/aharnishp/pico-3D-renderer/assets/69157507/de2a1740-ebd4-47eb-8cb3-2c3d8ff7163e
+
 
 
 
 ### Test without RPi Pico
 [This repository](https://github.com/aharnishp/3D-to-2D-Projection) uses same architecture for drawing, only the printing is done on char buffer instead of oled buffer and printed in stdout.
+
+https://github.com/aharnishp/pico-3D-renderer/assets/69157507/de2a1740-ebd4-47eb-8cb3-2c3d8ff7163e
 
 ### Credits
 Used the great [pico_ssd](https://github.com/Harbys/pico-ssd1306) library as backend for interfacing with OLED screen, to set pixels to OLED. The line drawer even though provided, is written from scratch.
