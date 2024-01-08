@@ -81,7 +81,7 @@ Discarded input sections
                 0x0000000000000000      0x114 CMakeFiles/engine3D.dir/index.cpp.obj
  .bss.model_rotation
                 0x0000000000000000        0xc CMakeFiles/engine3D.dir/index.cpp.obj
- .data.faces    0x0000000000000000     0x2748 CMakeFiles/engine3D.dir/index.cpp.obj
+ .data.faces    0x0000000000000000     0x1bb4 CMakeFiles/engine3D.dir/index.cpp.obj
  .text          0x0000000000000000        0x0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -1179,9 +1179,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
  .text._ZN11FrameBuffer9setBufferEPh
                 0x0000000000000000        0x4 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
- .text          0x0000000000000000        0x0 /tmp/ccjvatmt.o
- .data          0x0000000000000000        0x0 /tmp/ccjvatmt.o
- .bss           0x0000000000000000        0x0 /tmp/ccjvatmt.o
+ .text          0x0000000000000000        0x0 /tmp/ccWzum8d.o
+ .data          0x0000000000000000        0x0 /tmp/ccWzum8d.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWzum8d.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1361,11 +1361,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccjvatmt.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccWzum8d.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x68f8
+.text           0x0000000010000100     0x6ab8
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1433,626 +1433,625 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x000000001000037c      0x160 CMakeFiles/engine3D.dir/index.cpp.obj
                 0x000000001000037c                drawLine(pico_ssd1306::SSD1306, unsigned char, unsigned char, unsigned char, unsigned char)
  .text.startup.main
-                0x00000000100004dc      0x320 CMakeFiles/engine3D.dir/index.cpp.obj
+                0x00000000100004dc      0x4e4 CMakeFiles/engine3D.dir/index.cpp.obj
                 0x00000000100004dc                main
  .text.i2c_set_baudrate
-                0x00000000100007fc       0xc4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x00000000100007fc                i2c_set_baudrate
+                0x00000000100009c0       0xc4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000000100009c0                i2c_set_baudrate
  .text.i2c_init
-                0x00000000100008c0       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x00000000100008c0                i2c_init
+                0x0000000010000a84       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x0000000010000a84                i2c_init
  .text.i2c_write_blocking
-                0x0000000010000914       0xd0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x0000000010000914                i2c_write_blocking
+                0x0000000010000ad8       0xd0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x0000000010000ad8                i2c_write_blocking
  .text.hw_claim_or_assert
-                0x00000000100009e4       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100009e4                hw_claim_or_assert
+                0x0000000010000ba8       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000ba8                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000a28       0x9c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000a28                hw_claim_unused_from_range
+                0x0000000010000bec       0x9c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000bec                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x0000000010000ac4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000ac4                running_on_fpga
+                0x0000000010000c88       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000c88                running_on_fpga
  .text.spin_locks_reset
-                0x0000000010000ad4       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000ad4                spin_locks_reset
+                0x0000000010000c98       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000c98                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x0000000010000af0       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000af0                next_striped_spin_lock_num
+                0x0000000010000cb4       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000cb4                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x0000000010000b08       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000b08                spin_lock_claim_unused
+                0x0000000010000ccc       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000ccc                spin_lock_claim_unused
  .text.gpio_set_function
-                0x0000000010000b28       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000b28                gpio_set_function
+                0x0000000010000cec       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000cec                gpio_set_function
  .text.gpio_set_pulls
-                0x0000000010000b58       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000b58                gpio_set_pulls
+                0x0000000010000d1c       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000d1c                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x0000000010000b88       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000b88                gpio_set_input_enabled
+                0x0000000010000d4c       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000d4c                gpio_set_input_enabled
  .text.gpio_init
-                0x0000000010000bb0       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000bb0                gpio_init
+                0x0000000010000d74       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000d74                gpio_init
  .text.irq_set_enabled
-                0x0000000010000bec       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000bec                irq_set_enabled
+                0x0000000010000db0       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000db0                irq_set_enabled
  .text.irq_set_pending
-                0x0000000010000c10       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000c10                irq_set_pending
+                0x0000000010000dd4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000dd4                irq_set_pending
  .text.irq_has_shared_handler
-                0x0000000010000c20       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000c20                irq_has_shared_handler
+                0x0000000010000de4       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000de4                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x0000000010000c4c       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000c4c                irq_get_vtable_handler
+                0x0000000010000e10       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000e10                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010000c5c       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000c5c                irq_set_exclusive_handler
+                0x0000000010000e20       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000e20                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x0000000010000cb0      0x1e4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000cb0                irq_add_shared_handler
+                0x0000000010000e74      0x1e4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000e74                irq_add_shared_handler
  .text.irq_remove_handler
-                0x0000000010000e94      0x1b4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000e94                irq_remove_handler
+                0x0000000010001058      0x1b4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001058                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010001048       0xb4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001048                irq_add_tail_to_free_list
+                0x000000001000120c       0xb4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000120c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x00000000100010fc       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100010fc                irq_init_priorities
+                0x00000000100012c0       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100012c0                irq_init_priorities
  .text.user_irq_claim_unused
-                0x0000000010001120       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001120                user_irq_claim_unused
+                0x00000000100012e4       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100012e4                user_irq_claim_unused
  .text.lock_init
-                0x0000000010001150       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010001150                lock_init
+                0x0000000010001314       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010001314                lock_init
  .text.timer_pool_entry_comparator
-                0x0000000010001160       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001160                timer_pool_entry_comparator
+                0x0000000010001324       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001324                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010001194       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001358       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000100011c4      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001388      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100012c4      0x1c8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001488      0x1c8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x000000001000148c      0x11c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001650      0x11c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x00000000100015a8       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100015a8                alarm_pool_init_default
+                0x000000001000176c       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000176c                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x000000001000160c        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000160c                alarm_pool_get_default
+                0x00000000100017d0        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100017d0                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010001614      0x194 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001614                alarm_pool_add_alarm_at
+                0x00000000100017d8      0x194 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100017d8                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x00000000100017a8       0xac CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100017a8                sleep_until
+                0x000000001000196c       0xac CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000196c                sleep_until
  .text.sleep_ms
-                0x0000000010001854       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001854                sleep_ms
+                0x0000000010001a18       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001a18                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x000000001000188c       0xd4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000188c                best_effort_wfe_or_timeout
+                0x0000000010001a50       0xd4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001a50                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010001960       0xb8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001b24       0xb8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010001a18       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001a18                hardware_alarm_claim
+                0x0000000010001bdc       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001bdc                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001a30       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001a30                time_us_64
+                0x0000000010001bf4       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001bf4                time_us_64
  .text.busy_wait_until
-                0x0000000010001a44       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001a44                busy_wait_until
+                0x0000000010001c08       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c08                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010001a64       0x8c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001a64                hardware_alarm_set_callback
+                0x0000000010001c28       0x8c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c28                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001af0       0xe0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001af0                hardware_alarm_set_target
+                0x0000000010001cb4       0xe0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001cb4                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001bd0       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001bd0                hardware_alarm_cancel
+                0x0000000010001d94       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001d94                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010001c0c       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001dd0       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001c74       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001c74                ph_post_alloc_init
+                0x0000000010001e38       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001e38                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001cb0       0x90 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001cb0                ph_merge_two_pass
+                0x0000000010001e74       0x90 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001e74                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010001d40       0xf8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001f04       0xf8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010001e38       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001e38                ph_remove_head
+                0x0000000010001ffc       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001ffc                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001f34       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001f34                ph_remove_and_free_node
+                0x00000000100020f8       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100020f8                ph_remove_and_free_node
  .text.mutex_init
-                0x0000000010001fb0       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001fb0                mutex_init
+                0x0000000010002174       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010002174                mutex_init
  .text.recursive_mutex_init
-                0x0000000010001fcc       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001fcc                recursive_mutex_init
+                0x0000000010002190       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010002190                recursive_mutex_init
  .text.critical_section_init
-                0x0000000010001fe8       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010001fe8                critical_section_init
+                0x00000000100021ac       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x00000000100021ac                critical_section_init
  .text.uart_init
-                0x0000000010002008       0xe0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010002008                uart_init
+                0x00000000100021cc       0xe0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x00000000100021cc                uart_init
  .text.runtime_init
-                0x00000000100020e8       0xf0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100020e8                runtime_init
- .text._sbrk    0x00000000100021d8       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100021d8                _sbrk
- .text.exit     0x000000001000220c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000220c                exit
- .text.panic    0x0000000010002210       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002210                panic
+                0x00000000100022ac       0xf0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100022ac                runtime_init
+ .text._sbrk    0x000000001000239c       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000239c                _sbrk
+ .text.exit     0x00000000100023d0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100023d0                exit
+ .text.panic    0x00000000100023d4       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100023d4                panic
  .text.hard_assertion_failure
-                0x0000000010002240        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002240                hard_assertion_failure
+                0x0000000010002404        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002404                hard_assertion_failure
  .text.clocks_init
-                0x000000001000224c      0x2bc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x000000001000224c                clocks_init
+                0x0000000010002410      0x2bc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010002410                clocks_init
  .text.clock_get_hz
-                0x0000000010002508        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010002508                clock_get_hz
+                0x00000000100026cc        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100026cc                clock_get_hz
  .text.pll_init
-                0x0000000010002514       0xb0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010002514                pll_init
+                0x00000000100026d8       0xb0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00000000100026d8                pll_init
  .text.watchdog_start_tick
-                0x00000000100025c4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100025c4                watchdog_start_tick
+                0x0000000010002788       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002788                watchdog_start_tick
  .text.watchdog_reboot
-                0x00000000100025d4       0x98 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100025d4                watchdog_reboot
+                0x0000000010002798       0x98 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002798                watchdog_reboot
  .text.xosc_init
-                0x000000001000266c       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x000000001000266c                xosc_init
+                0x0000000010002830       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010002830                xosc_init
  .text._out_char
-                0x0000000010002694       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002858       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x00000000100026a4       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000100026a4                weak_raw_vprintf
- .text          0x00000000100026d4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010002868       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002868                weak_raw_vprintf
+ .text          0x0000000010002898       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100026e4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100026e4                rom_func_lookup
+                0x00000000100028a8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100028a8                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100026f4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100026f4                rom_data_lookup
+                0x00000000100028b8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100028b8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010002704       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010002704                rom_funcs_lookup
+                0x00000000100028c8       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100028c8                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x0000000010002748       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010002748                __wrap___aeabi_idivmod
-                0x0000000010002748                divmod_s32s32
-                0x0000000010002748                div_s32s32
-                0x0000000010002748                __wrap___aeabi_idiv
-                0x0000000010002750                divmod_s32s32_unsafe
-                0x000000001000277c                divmod_s32s32_savestate
+                0x000000001000290c       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000290c                __wrap___aeabi_idivmod
+                0x000000001000290c                divmod_s32s32
+                0x000000001000290c                div_s32s32
+                0x000000001000290c                __wrap___aeabi_idiv
+                0x0000000010002914                divmod_s32s32_unsafe
+                0x0000000010002940                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010002798       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010002798                __wrap___aeabi_uidiv
-                0x0000000010002798                __wrap___aeabi_uidivmod
-                0x0000000010002798                div_u32u32
-                0x0000000010002798                divmod_u32u32
-                0x00000000100027a0                divmod_u32u32_unsafe
-                0x00000000100027c8                divmod_u32u32_savestate
+                0x000000001000295c       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000295c                __wrap___aeabi_uidiv
+                0x000000001000295c                __wrap___aeabi_uidivmod
+                0x000000001000295c                div_u32u32
+                0x000000001000295c                divmod_u32u32
+                0x0000000010002964                divmod_u32u32_unsafe
+                0x000000001000298c                divmod_u32u32_savestate
  .text.__wrap___aeabi_darithmetic
-                0x00000000100027e4       0x80 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100027e4                __wrap___aeabi_drsub
-                0x00000000100027ea                __wrap___aeabi_dsub
-                0x00000000100027fc                __wrap___aeabi_dadd
-                0x000000001000280e                __wrap___aeabi_ddiv
-                0x000000001000284a                __wrap___aeabi_dmul
+                0x00000000100029a8       0x80 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100029a8                __wrap___aeabi_drsub
+                0x00000000100029ae                __wrap___aeabi_dsub
+                0x00000000100029c0                __wrap___aeabi_dadd
+                0x00000000100029d2                __wrap___aeabi_ddiv
+                0x0000000010002a0e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_i2d
-                0x0000000010002864       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010002864                __wrap___aeabi_ui2d
-                0x000000001000286c                __wrap___aeabi_i2d
+                0x0000000010002a28       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010002a28                __wrap___aeabi_ui2d
+                0x0000000010002a30                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2f
-                0x000000001000289c       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000289c                __wrap___aeabi_d2f
+                0x0000000010002a60       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010002a60                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x00000000100028b4       0x94 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x00000000100028b4                __aeabi_double_init
+                0x0000000010002a78       0x94 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010002a78                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010002948       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002948                double_table_shim_on_use_helper
+                0x0000000010002b0c       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002b0c                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010002974       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002974                drsub_shim
-                0x000000001000297a                dsub_shim
+                0x0000000010002b38       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002b38                drsub_shim
+                0x0000000010002b3e                dsub_shim
  .text.dadd_shim
-                0x0000000010002984      0x15c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002984                dadd_shim
+                0x0000000010002b48      0x15c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002b48                dadd_shim
  .text.dmul_shim
-                0x0000000010002ae0      0x15c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002ae0                dmul_shim
+                0x0000000010002ca4      0x15c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002ca4                dmul_shim
  .text.ddiv_shim
-                0x0000000010002c3c      0x1b0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002c3c                ddiv_shim
+                0x0000000010002e00      0x1b0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002e00                ddiv_shim
  .text.double2float_shim
-                0x0000000010002dec       0x5c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010002dec                double2float_shim
+                0x0000000010002fb0       0x5c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010002fb0                double2float_shim
  .text.__aeabi_lmul
-                0x0000000010002e48       0x32 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010002e48                __wrap___aeabi_lmul
- *fill*         0x0000000010002e7a        0x2 
+                0x000000001000300c       0x32 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x000000001000300c                __wrap___aeabi_lmul
+ *fill*         0x000000001000303e        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x0000000010002e7c       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002e7c                __wrap___aeabi_frsub
-                0x0000000010002e82                __wrap___aeabi_fsub
-                0x0000000010002e88                __wrap___aeabi_fadd
-                0x0000000010002e8e                __wrap___aeabi_fdiv
-                0x0000000010002eb6                __wrap___aeabi_fmul
+                0x0000000010003040       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003040                __wrap___aeabi_frsub
+                0x0000000010003046                __wrap___aeabi_fsub
+                0x000000001000304c                __wrap___aeabi_fadd
+                0x0000000010003052                __wrap___aeabi_fdiv
+                0x000000001000307a                __wrap___aeabi_fmul
  .text.__wrap___aeabi_cfcmple
-                0x0000000010002ec4       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002ec4                __wrap___aeabi_cfrcmple
-                0x0000000010002ed0                __wrap___aeabi_cfcmpeq
-                0x0000000010002ed0                __wrap___aeabi_cfcmple
+                0x0000000010003088       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003088                __wrap___aeabi_cfrcmple
+                0x0000000010003094                __wrap___aeabi_cfcmpeq
+                0x0000000010003094                __wrap___aeabi_cfcmple
  .text.__wrap___aeabi_fcmplt
-                0x0000000010002f14        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002f14                __wrap___aeabi_fcmplt
+                0x00000000100030d8        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000000100030d8                __wrap___aeabi_fcmplt
  .text.__wrap___aeabi_fcmpge
-                0x0000000010002f20       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002f20                __wrap___aeabi_fcmpge
+                0x00000000100030e4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000000100030e4                __wrap___aeabi_fcmpge
  .text.__wrap___aeabi_i2f
-                0x0000000010002f30       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002f30                __wrap___aeabi_i2f
+                0x00000000100030f4       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000000100030f4                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2iz
-                0x0000000010002f74       0x4e CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002f74                __wrap___aeabi_f2iz
-                0x0000000010002f74                float2int_z
- *fill*         0x0000000010002fc2        0x2 
+                0x0000000010003138       0x4e CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003138                __wrap___aeabi_f2iz
+                0x0000000010003138                float2int_z
+ *fill*         0x0000000010003186        0x2 
  .text.float2int
-                0x0000000010002fc4       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002fc4                float2int
+                0x0000000010003188       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010003188                float2int
  .text.__wrap___aeabi_f2uiz
-                0x0000000010002fd8        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010002fd8                __wrap___aeabi_f2uiz
+                0x000000001000319c        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x000000001000319c                __wrap___aeabi_f2uiz
  .text.__aeabi_float_init
-                0x0000000010002fe4       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010002fe4                __aeabi_float_init
+                0x00000000100031a8       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000100031a8                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010003048       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010003048                float_table_shim_on_use_helper
+                0x000000001000320c       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x000000001000320c                float_table_shim_on_use_helper
  .text.float232_shims
-                0x0000000010003074       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010003074                float2int_shim
-                0x0000000010003076                float2fix_shim
+                0x0000000010003238       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010003238                float2int_shim
+                0x000000001000323a                float2fix_shim
  .text.__wrap_malloc
-                0x000000001000308c       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x000000001000308c                __wrap_malloc
- .text          0x00000000100030b0       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100030b0                __aeabi_mem_init
- .text.memset   0x00000000100030c0        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100030c0                __wrap_memset
- .text.memcpy   0x00000000100030cc        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100030cc                __wrap___aeabi_memcpy
-                0x00000000100030cc                __wrap_memcpy
- .text._Znaj    0x00000000100030d8        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-                0x00000000100030d8                operator new[](unsigned int)
+                0x0000000010003250       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000010003250                __wrap_malloc
+ .text          0x0000000010003274       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003274                __aeabi_mem_init
+ .text.memset   0x0000000010003284        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003284                __wrap_memset
+ .text.memcpy   0x0000000010003290        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003290                __wrap___aeabi_memcpy
+                0x0000000010003290                __wrap_memcpy
+ .text._Znaj    0x000000001000329c        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+                0x000000001000329c                operator new[](unsigned int)
  .text.stdio_out_chars_no_crlf
-                0x00000000100030e0       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100032a4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x00000000100030f0       0xb4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100032b4       0xb4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x00000000100031a4       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003368       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x00000000100032a0       0xa0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100032a0                __wrap_putchar
+                0x0000000010003464       0xa0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003464                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010003340       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010003340                __wrap_puts
+                0x0000000010003504       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003504                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x000000001000337c       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000337c                stdio_set_driver_enabled
+                0x0000000010003540       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003540                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x00000000100033ac        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100033ac                stdio_init_all
+                0x0000000010003570        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003570                stdio_init_all
  .text.stdio_uart_out_chars
-                0x00000000100033b8       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x000000001000357c       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x0000000010003404       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010003404                stdio_uart_in_chars
+                0x00000000100035c8       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100035c8                stdio_uart_in_chars
  .text.stdio_uart_init
-                0x000000001000343c       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x000000001000343c                stdio_uart_init
+                0x0000000010003600       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010003600                stdio_uart_init
  .text.resetd_init
-                0x0000000010003484        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010003648        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x0000000010003488        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000364c        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x0000000010003494       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010003658       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x00000000100034bc        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010003680        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x00000000100034c0       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010003684       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010003524        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010003524                usbd_app_driver_get_cb
+                0x00000000100036e8        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100036e8                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010003530       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010003530                tud_cdc_line_coding_cb
+                0x00000000100036f4       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100036f4                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x0000000010003564       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010003564                stdio_usb_in_chars
+                0x0000000010003728       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010003728                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x00000000100035cc       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010003790       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x00000000100036b0       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .text.usb_irq  0x00000000100036c8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010003874       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .text.usb_irq  0x000000001000388c       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x00000000100036d8       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001000389c       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x00000000100036fc       0xb0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100036fc                stdio_usb_init
+                0x00000000100038c0       0xb0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100038c0                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x00000000100037ac        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100037ac                tud_descriptor_device_cb
+                0x0000000010003970        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010003970                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x00000000100037b4        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100037b4                tud_descriptor_configuration_cb
+                0x0000000010003978        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010003978                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x00000000100037bc       0x74 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100037bc                tud_descriptor_string_cb
+                0x0000000010003980       0x74 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010003980                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x0000000010003830      0x21c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100039f4      0x21c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x0000000010003a4c        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003a4c                dcd_int_enable
+                0x0000000010003c10        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003c10                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010003a58       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003a58                dcd_set_address
+                0x0000000010003c1c       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003c1c                dcd_set_address
  .text.dcd_connect
-                0x0000000010003a6c       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003a6c                dcd_connect
+                0x0000000010003c30       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003c30                dcd_connect
  .text.dcd_init
-                0x0000000010003a7c      0x144 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003a7c                dcd_init
+                0x0000000010003c40      0x144 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003c40                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010003bc0       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003bc0                dcd_edpt0_status_complete
+                0x0000000010003d84       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003d84                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010003bdc       0xf0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003bdc                dcd_edpt_open
+                0x0000000010003da0       0xf0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003da0                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x0000000010003ccc       0xbc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003ccc                dcd_edpt_close_all
+                0x0000000010003e90       0xbc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003e90                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010003d88       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003d88                dcd_edpt_xfer
+                0x0000000010003f4c       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003f4c                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010003dac       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003dac                dcd_edpt_stall
+                0x0000000010003f70       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003f70                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010003de4       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010003de4                dcd_edpt_clear_stall
+                0x0000000010003fa8       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010003fa8                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x0000000010003e14       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010003fd8       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x0000000010003e30       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010003e30                rp2040_usb_init
+                0x0000000010003ff4       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010003ff4                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x0000000010003e7c        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010003e7c                hw_endpoint_reset_transfer
+                0x0000000010004040        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004040                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x0000000010003e88       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010003e88                _hw_endpoint_buffer_control_update32
+                0x000000001000404c       0x44 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000404c                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x0000000010003ecc      0x138 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010003ecc                hw_endpoint_xfer_start
+                0x0000000010004090      0x138 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004090                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x0000000010004004      0x1e4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004004                hw_endpoint_xfer_continue
+                0x00000000100041c8      0x1e4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100041c8                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x00000000100041e8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100041e8                tud_mounted
+                0x00000000100043ac       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100043ac                tud_mounted
  .text.tud_suspended
-                0x00000000100041f8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100041f8                tud_suspended
+                0x00000000100043bc       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100043bc                tud_suspended
  .text.tud_inited
-                0x0000000010004208        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004208                tud_inited
+                0x00000000100043cc        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100043cc                tud_inited
  .text.tud_init
-                0x0000000010004214       0xd8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004214                tud_init
+                0x00000000100043d8       0xd8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100043d8                tud_init
  .text.tud_task
-                0x00000000100042ec      0x8ec CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100042ec                tud_task
+                0x00000000100044b0      0x8ec CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100044b0                tud_task
  .text.dcd_event_bus_signal
-                0x0000000010004bd8      0x120 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004bd8                dcd_event_bus_signal
+                0x0000000010004d9c      0x120 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004d9c                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x0000000010004cf8       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004cf8                dcd_event_bus_reset
+                0x0000000010004ebc       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004ebc                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x0000000010004d4c       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004d4c                dcd_event_setup_received
+                0x0000000010004f10       0x50 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004f10                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x0000000010004d9c       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004d9c                dcd_event_xfer_complete
+                0x0000000010004f60       0x68 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004f60                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x0000000010004e04       0x80 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004e04                usbd_open_edpt_pair
+                0x0000000010004fc8       0x80 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004fc8                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x0000000010004e84       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004e84                usbd_edpt_open
+                0x0000000010005048       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005048                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010004eb4       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004eb4                usbd_edpt_claim
+                0x0000000010005078       0x64 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005078                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010004f18       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004f18                usbd_edpt_release
+                0x00000000100050dc       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100050dc                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010004f64       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004f64                usbd_edpt_xfer
+                0x0000000010005128       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005128                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010004fac       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010004fac                tud_control_status
+                0x0000000010005170       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005170                tud_control_status
  .text.tud_control_xfer
-                0x0000000010004fdc       0xbc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010004fdc                tud_control_xfer
+                0x00000000100051a0       0xbc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100051a0                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010005098       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005098                usbd_control_reset
+                0x000000001000525c       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000001000525c                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x00000000100050ac        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100050ac                usbd_control_set_complete_callback
+                0x0000000010005270        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005270                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x00000000100050b8       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100050b8                usbd_control_set_request
+                0x000000001000527c       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000001000527c                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x00000000100050d4       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100050d4                usbd_control_xfer_cb
+                0x0000000010005298       0xfc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005298                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x00000000100051d0       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100051d0                tud_cdc_n_connected
+                0x0000000010005394       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005394                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010005200       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005200                tud_cdc_n_available
+                0x00000000100053c4       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100053c4                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010005218       0x70 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005218                tud_cdc_n_read
+                0x00000000100053dc       0x70 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100053dc                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010005288       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005288                tud_cdc_n_write_flush
+                0x000000001000544c       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000544c                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x0000000010005300       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005300                tud_cdc_n_write
+                0x00000000100054c4       0x34 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100054c4                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x0000000010005334       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005334                tud_cdc_n_write_available
+                0x00000000100054f8       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100054f8                tud_cdc_n_write_available
  .text.cdcd_init
-                0x000000001000534c       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000534c                cdcd_init
+                0x0000000010005510       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005510                cdcd_init
  .text.cdcd_reset
-                0x00000000100053c8       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100053c8                cdcd_reset
+                0x000000001000558c       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000558c                cdcd_reset
  .text.cdcd_open
-                0x00000000100053f4       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100053f4                cdcd_open
+                0x00000000100055b8       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100055b8                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x00000000100054d8       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100054d8                cdcd_control_xfer_cb
+                0x000000001000569c       0xe4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000569c                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x00000000100055bc      0x148 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100055bc                cdcd_xfer_cb
+                0x0000000010005780      0x148 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005780                cdcd_xfer_cb
  .text.tusb_init
-                0x0000000010005704        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010005704                tusb_init
+                0x00000000100058c8        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100058c8                tusb_init
  .text.tusb_inited
-                0x0000000010005710        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010005710                tusb_inited
+                0x00000000100058d4        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100058d4                tusb_inited
  .text.tu_edpt_validate
-                0x0000000010005718       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010005718                tu_edpt_validate
+                0x00000000100058dc       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100058dc                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x0000000010005790       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010005790                tu_edpt_bind_driver
+                0x0000000010005954       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005954                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x00000000100057bc       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100057bc                tu_fifo_config
+                0x0000000010005980       0x78 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005980                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010005834       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005834                tu_fifo_count
+                0x00000000100059f8       0x20 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100059f8                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010005854       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005854                tu_fifo_empty
+                0x0000000010005a18       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005a18                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010005864       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005864                tu_fifo_remaining
+                0x0000000010005a28       0x1c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005a28                tu_fifo_remaining
  .text.tu_fifo_read
-                0x0000000010005880       0x9c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005880                tu_fifo_read
+                0x0000000010005a44       0x9c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005a44                tu_fifo_read
  .text.tu_fifo_read_n
-                0x000000001000591c      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000591c                tu_fifo_read_n
+                0x0000000010005ae0      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005ae0                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010005a1c       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005a1c                tu_fifo_write
+                0x0000000010005be0       0x7c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005be0                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000010005a98      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005a98                tu_fifo_write_n
+                0x0000000010005c5c      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005c5c                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010005b98       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005b98                tu_fifo_clear
+                0x0000000010005d5c       0x4c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005d5c                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010005be4       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010005be4                tu_fifo_set_overwritable
+                0x0000000010005da8       0x3c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005da8                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010005c20       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010005de4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010005c30      0x1a8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010005c30                pico_get_unique_board_id_string
+                0x0000000010005df4      0x1a8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010005df4                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010005dd8       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010005dd8                flash_get_unique_id
+                0x0000000010005f9c       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010005f9c                flash_get_unique_id
  .text.adc_init
-                0x0000000010005e18       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x0000000010005e18                adc_init
+                0x0000000010005fdc       0x38 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x0000000010005fdc                adc_init
  .text._ZN12pico_ssd13067SSD13068setPixelEssNS_9WriteModeE
-                0x0000000010005e50       0x94 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010005e50                pico_ssd1306::SSD1306::setPixel(short, short, pico_ssd1306::WriteMode)
+                0x0000000010006014       0x94 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006014                pico_ssd1306::SSD1306::setPixel(short, short, pico_ssd1306::WriteMode)
  .text._ZN12pico_ssd13067SSD130610sendBufferEv
-                0x0000000010005ee4       0xb8 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010005ee4                pico_ssd1306::SSD1306::sendBuffer()
+                0x00000000100060a8       0xb8 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x00000000100060a8                pico_ssd1306::SSD1306::sendBuffer()
  .text._ZN12pico_ssd13067SSD1306C2EP8i2c_insttNS_4SizeE
-                0x0000000010005f9c       0x98 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010005f9c                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
-                0x0000000010005f9c                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
+                0x0000000010006160       0x98 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006160                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
+                0x0000000010006160                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
  .text._ZN12pico_ssd13067SSD13065clearEv
-                0x0000000010006034        0xc pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006034                pico_ssd1306::SSD1306::clear()
+                0x00000000100061f8        0xc pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x00000000100061f8                pico_ssd1306::SSD1306::clear()
  .text._ZN12pico_ssd13067SSD130614setOrientationEb
-                0x0000000010006040       0x68 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006040                pico_ssd1306::SSD1306::setOrientation(bool)
+                0x0000000010006204       0x68 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006204                pico_ssd1306::SSD1306::setOrientation(bool)
  .text._ZN11FrameBufferC2Ev
-                0x00000000100060a8       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x00000000100060a8                FrameBuffer::FrameBuffer()
-                0x00000000100060a8                FrameBuffer::FrameBuffer()
+                0x000000001000626c       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x000000001000626c                FrameBuffer::FrameBuffer()
+                0x000000001000626c                FrameBuffer::FrameBuffer()
  .text._ZN11FrameBuffer6byteOREih
-                0x00000000100060bc       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x00000000100060bc                FrameBuffer::byteOR(int, unsigned char)
+                0x0000000010006280       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006280                FrameBuffer::byteOR(int, unsigned char)
  .text._ZN11FrameBuffer7byteANDEih
-                0x00000000100060d0       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x00000000100060d0                FrameBuffer::byteAND(int, unsigned char)
+                0x0000000010006294       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006294                FrameBuffer::byteAND(int, unsigned char)
  .text._ZN11FrameBuffer7byteXOREih
-                0x00000000100060e4       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x00000000100060e4                FrameBuffer::byteXOR(int, unsigned char)
+                0x00000000100062a8       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x00000000100062a8                FrameBuffer::byteXOR(int, unsigned char)
  .text._ZN11FrameBuffer5clearEv
-                0x00000000100060f8       0x10 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x00000000100060f8                FrameBuffer::clear()
+                0x00000000100062bc       0x10 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x00000000100062bc                FrameBuffer::clear()
  .text._ZN11FrameBuffer3getEv
-                0x0000000010006108        0x4 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006108                FrameBuffer::get()
- .text          0x000000001000610c       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
-                0x000000001000610c                malloc
-                0x0000000010006120                free
- .text          0x0000000010006134      0x574 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000010006134                _malloc_r
- .text          0x00000000100066a8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x00000000100066a8                __malloc_lock
-                0x00000000100066ac                __malloc_unlock
- .text          0x00000000100066b0       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x00000000100066b0                _sbrk_r
- .text          0x00000000100066d4       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x00000000100066d4                strlen
- .text          0x0000000010006730      0x260 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x0000000010006730                _malloc_trim_r
-                0x00000000100067cc                _free_r
+                0x00000000100062cc        0x4 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x00000000100062cc                FrameBuffer::get()
+ .text          0x00000000100062d0       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
+                0x00000000100062d0                malloc
+                0x00000000100062e4                free
+ .text          0x00000000100062f8      0x574 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000100062f8                _malloc_r
+ .text          0x000000001000686c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x000000001000686c                __malloc_lock
+                0x0000000010006870                __malloc_unlock
+ .text          0x0000000010006874       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x0000000010006874                _sbrk_r
+ .text          0x0000000010006898       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010006898                strlen
+ .text          0x00000000100068f4      0x260 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x00000000100068f4                _malloc_trim_r
+                0x0000000010006990                _free_r
  *(.fini)
- .fini          0x0000000010006990        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010006990                _fini
- *fill*         0x0000000010006994        0x4 
- .fini.__stub   0x0000000010006998       0x60 linker stubs
+ .fini          0x0000000010006b54        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010006b54                _fini
+ .fini.__stub   0x0000000010006b58       0x60 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2064,140 +2063,140 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x00000000100069f8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100069f8                . = ALIGN (0x4)
+ .eh_frame      0x0000000010006bb8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010006bb8                . = ALIGN (0x4)
 
-.glue_7         0x00000000100069f8        0x0
- .glue_7        0x00000000100069f8        0x0 linker stubs
+.glue_7         0x0000000010006bb8        0x0
+ .glue_7        0x0000000010006bb8        0x0 linker stubs
 
-.glue_7t        0x00000000100069f8        0x0
- .glue_7t       0x00000000100069f8        0x0 linker stubs
+.glue_7t        0x0000000010006bb8        0x0
+ .glue_7t       0x0000000010006bb8        0x0 linker stubs
 
-.vfp11_veneer   0x00000000100069f8        0x0
- .vfp11_veneer  0x00000000100069f8        0x0 linker stubs
+.vfp11_veneer   0x0000000010006bb8        0x0
+ .vfp11_veneer  0x0000000010006bb8        0x0 linker stubs
 
-.v4_bx          0x00000000100069f8        0x0
- .v4_bx         0x00000000100069f8        0x0 linker stubs
+.v4_bx          0x0000000010006bb8        0x0
+ .v4_bx         0x0000000010006bb8        0x0 linker stubs
 
-.iplt           0x00000000100069f8        0x0
- .iplt          0x00000000100069f8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010006bb8        0x0
+ .iplt          0x0000000010006bb8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x00000000100069f8      0x394
+.rodata         0x0000000010006bb8      0x394
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata._ZL15fast_sine_table
-                0x00000000100069f8       0x5b CMakeFiles/engine3D.dir/index.cpp.obj
- *fill*         0x0000000010006a53        0x1 
+                0x0000000010006bb8       0x5b CMakeFiles/engine3D.dir/index.cpp.obj
+ *fill*         0x0000000010006c13        0x1 
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010006a54       0x1b CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010006a6f        0x1 
+                0x0000000010006c14       0x1b CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010006c2f        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x0000000010006a70       0x1b CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010006a8b        0x1 
+                0x0000000010006c30       0x1b CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010006c4b        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010006a8c       0x22 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010006aae        0x2 
+                0x0000000010006c4c       0x22 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010006c6e        0x2 
  .rodata.panic.str1.4
-                0x0000000010006ab0       0x12 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010006ac2        0x2 
+                0x0000000010006c70       0x12 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010006c82        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010006ac4        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010006c84        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x0000000010006ad0        0xe CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- *fill*         0x0000000010006ade        0x2 
+                0x0000000010006c90        0xe CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ *fill*         0x0000000010006c9e        0x2 
  .rodata.str1.4
-                0x0000000010006ae0       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006ca0       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010006b20        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006ce0        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010006b2c        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006cec        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010006b38        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006cf8        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010006b44        0x2 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010006b46        0x2 
+                0x0000000010006d04        0x2 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010006d06        0x2 
  .rodata.str1.4
-                0x0000000010006b48       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010006d08       0x2c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_28.4
-                0x0000000010006b74        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010006d34        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_29.5
-                0x0000000010006b80        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010006d40        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata._resetd_driver
-                0x0000000010006b88       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010006d48       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x0000000010006ba0       0x13 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x0000000010006bb3        0x1 
+                0x0000000010006d60       0x13 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010006d73        0x1 
  .rodata.__bi_118.0
-                0x0000000010006bb4        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010006d74        0xc CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x0000000010006bc0       0x2a CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010006bea        0x2 
+                0x0000000010006d80       0x2a CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010006daa        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010006bec       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010006dac       0x54 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x0000000010006c40       0x12 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010006c52        0x2 
+                0x0000000010006e00       0x12 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010006e12        0x2 
  .rodata.usbd_desc_str
-                0x0000000010006c54       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010006e14       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x0000000010006c6c       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010006e2c       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x0000000010006c80       0x1f CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010006c9f        0x1 
+                0x0000000010006e40       0x1f CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010006e5f        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x0000000010006ca0       0x29 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010006e60       0x29 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata.str1.4
-                0x0000000010006cc9       0x29 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010006e89       0x29 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                           0x7 (size before relaxing)
- *fill*         0x0000000010006cc9        0x3 
+ *fill*         0x0000000010006e89        0x3 
  .rodata.tud_task
-                0x0000000010006ccc       0x8c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006e8c       0x8c CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x0000000010006d58       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .rodata        0x0000000010006d70       0x19 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006d8c                . = ALIGN (0x4)
- *fill*         0x0000000010006d89        0x3 
+                0x0000000010006f18       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .rodata        0x0000000010006f30       0x19 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006f4c                . = ALIGN (0x4)
+ *fill*         0x0000000010006f49        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010006d8c                . = ALIGN (0x4)
+                0x0000000010006f4c                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010006d8c        0x0
- .rel.iplt      0x0000000010006d8c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010006f4c        0x0
+ .rel.iplt      0x0000000010006f4c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010006d8c                __exidx_start = .
+                0x0000000010006f4c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010006d8c                __exidx_end = .
-                0x0000000010006d8c                . = ALIGN (0x4)
-                0x0000000010006d8c                __binary_info_start = .
+                0x0000000010006f4c                __exidx_end = .
+                0x0000000010006f4c                . = ALIGN (0x4)
+                0x0000000010006f4c                __binary_info_start = .
 
-.binary_info    0x0000000010006d8c       0x28
+.binary_info    0x0000000010006f4c       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010006d8c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f4c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010006d90        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f50        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010006d94        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f54        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010006d98        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f58        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010006d9c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f5c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010006da0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f60        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010006da4        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006f64        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x0000000010006da8        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010006f68        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x0000000010006dac        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010006f6c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr118
-                0x0000000010006db0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010006db4                __binary_info_end = .
-                0x0000000010006db4                . = ALIGN (0x4)
-                0x0000000010006db4                __etext = .
+                0x0000000010006f70        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010006f74                __binary_info_end = .
+                0x0000000010006f74                . = ALIGN (0x4)
+                0x0000000010006f74                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2206,7 +2205,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x5358 load address 0x0000000010006db4
+.data           0x00000000200000c0     0x3d78 load address 0x0000000010006f74
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2241,233 +2240,233 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.rodata*)
                 0x0000000020000388                . = ALIGN (0x4)
  *(.data*)
- .data.edges    0x0000000020000388     0x2c10 CMakeFiles/engine3D.dir/index.cpp.obj
+ .data.edges    0x0000000020000388     0x1de0 CMakeFiles/engine3D.dir/index.cpp.obj
                 0x0000000020000388                edges
  .data.vertices
-                0x0000000020002f98     0x1b24 CMakeFiles/engine3D.dir/index.cpp.obj
-                0x0000000020002f98                vertices
+                0x0000000020002168     0x1374 CMakeFiles/engine3D.dir/index.cpp.obj
+                0x0000000020002168                vertices
  .data.i2c0_inst
-                0x0000000020004abc        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x0000000020004abc                i2c0_inst
+                0x00000000200034dc        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000000200034dc                i2c0_inst
  .data.striped_spin_lock_num
-                0x0000000020004ac4        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000020004ac5        0x3 
- .data          0x0000000020004ac8       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                0x0000000020004ac8                irq_handler_chain_slots
-                0x0000000020004af8                irq_handler_chain_first_slot
-                0x0000000020004b02                irq_handler_chain_remove_tail
+                0x00000000200034e4        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x00000000200034e5        0x3 
+ .data          0x00000000200034e8       0x48 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x00000000200034e8                irq_handler_chain_slots
+                0x0000000020003518                irq_handler_chain_first_slot
+                0x0000000020003522                irq_handler_chain_remove_tail
  .data.default_alarm_pool
-                0x0000000020004b10       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003530       0x18 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .data.default_alarm_pool_heap
-                0x0000000020004b28       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000020004b38        0x8 
+                0x0000000020003548       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000020003558        0x8 
  .data.aeabi_bits_funcs
-                0x0000000020004b40       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x0000000020004b40                aeabi_bits_funcs
-                0x0000000020004b50                aeabi_bits_funcs_end
+                0x0000000020003560       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020003560                aeabi_bits_funcs
+                0x0000000020003570                aeabi_bits_funcs_end
  .data.aeabi_mem_funcs
-                0x0000000020004b50       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000020004b50                aeabi_mem_funcs
-                0x0000000020004b60                aeabi_mem_funcs_end
+                0x0000000020003570       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020003570                aeabi_mem_funcs
+                0x0000000020003580                aeabi_mem_funcs_end
  .data.stdio_uart
-                0x0000000020004b60       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000020004b60                stdio_uart
+                0x0000000020003580       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020003580                stdio_uart
  .data.stdio_usb
-                0x0000000020004b74       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000020004b74                stdio_usb
+                0x0000000020003594       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020003594                stdio_usb
  .data.ep_dir_string
-                0x0000000020004b88        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020004b88                ep_dir_string
+                0x00000000200035a8        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000200035a8                ep_dir_string
  .data._usbd_qdef
-                0x0000000020004b90       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020004b90                _usbd_qdef
- *fill*         0x0000000020004bb4        0x4 
- .data          0x0000000020004bb8      0x430 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
-                0x0000000020004bb8                _impure_ptr
- .data          0x0000000020004fe8      0x410 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020004fe8                __malloc_sbrk_base
-                0x0000000020004fec                __malloc_trim_threshold
-                0x0000000020004ff0                __malloc_av_
-                0x00000000200053f8                . = ALIGN (0x4)
+                0x00000000200035b0       0x24 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200035b0                _usbd_qdef
+ *fill*         0x00000000200035d4        0x4 
+ .data          0x00000000200035d8      0x430 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
+                0x00000000200035d8                _impure_ptr
+ .data          0x0000000020003a08      0x410 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x0000000020003a08                __malloc_sbrk_base
+                0x0000000020003a0c                __malloc_trim_threshold
+                0x0000000020003a10                __malloc_av_
+                0x0000000020003e18                . = ALIGN (0x4)
  *(.after_data.*)
-                0x00000000200053f8                . = ALIGN (0x4)
-                0x00000000200053f8                PROVIDE (__mutex_array_start = .)
+                0x0000000020003e18                . = ALIGN (0x4)
+                0x0000000020003e18                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x00000000200053f8        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020005400                PROVIDE (__mutex_array_end = .)
-                0x0000000020005400                . = ALIGN (0x4)
-                0x0000000020005400                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x0000000020003e18        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020003e20                PROVIDE (__mutex_array_end = .)
+                0x0000000020003e20                . = ALIGN (0x4)
+                0x0000000020003e20                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x0000000020005400        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020003e20        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x0000000020005404        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020003e24        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020005408        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020003e28        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x000000002000540c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000020003e2c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x0000000020005410                PROVIDE (__preinit_array_end = .)
-                0x0000000020005410                . = ALIGN (0x4)
-                0x0000000020005410                PROVIDE (__init_array_start = .)
+                0x0000000020003e30                PROVIDE (__preinit_array_end = .)
+                0x0000000020003e30                . = ALIGN (0x4)
+                0x0000000020003e30                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x0000000020005410        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x0000000020005414        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000020005418                PROVIDE (__init_array_end = .)
-                0x0000000020005418                . = ALIGN (0x4)
-                0x0000000020005418                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000020003e30        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x0000000020003e34        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020003e38                PROVIDE (__init_array_end = .)
+                0x0000000020003e38                . = ALIGN (0x4)
+                0x0000000020003e38                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x0000000020005418                PROVIDE (__fini_array_end = .)
+                0x0000000020003e38                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x0000000020005418                . = ALIGN (0x4)
-                0x0000000020005418                __data_end__ = .
+                0x0000000020003e38                . = ALIGN (0x4)
+                0x0000000020003e38                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020005418        0x0 load address 0x000000001000c10c
+                0x0000000020003e38        0x0 load address 0x000000001000acec
  .tm_clone_table
-                0x0000000020005418        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000020003e38        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x0000000020005418        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+                0x0000000020003e38        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020005418        0x0 load address 0x000000001000c10c
- .igot.plt      0x0000000020005418        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x0000000020003e38        0x0 load address 0x000000001000acec
+ .igot.plt      0x0000000020003e38        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020005418        0x0 load address 0x000000001000c10c
-                0x0000000020005418                . = ALIGN (0x4)
+                0x0000000020003e38        0x0 load address 0x000000001000acec
+                0x0000000020003e38                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x000000001000c10c
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001000acec
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x000000001000c10c                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001000acec                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x000000001000c10c
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001000acec
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x000000001000c10c                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001000acec                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020005418     0x28f0
-                0x0000000020005418                . = ALIGN (0x4)
-                0x0000000020005418                __bss_start__ = .
+.bss            0x0000000020003e38     0x2140
+                0x0000000020003e38                . = ALIGN (0x4)
+                0x0000000020003e38                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.default_alarm_pool_entries
-                0x0000000020005418      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020003e38      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.last_avail_time.1
-                0x0000000020005518        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .bss.sd_table  0x0000000020005520      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020005520                sd_table
- .bss.sf_table  0x0000000020005620      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000020005620                sf_table
- .bss           0x0000000020005720       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .bss           0x000000002000573c       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x000000002000573c                __malloc_top_pad
-                0x0000000020005740                __malloc_current_mallinfo
-                0x0000000020005768                __malloc_max_sbrked_mem
-                0x000000002000576c                __malloc_max_total_mem
- .bss           0x0000000020005770        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reent.o)
-                0x0000000020005770                errno
+                0x0000000020003f38        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .bss.sd_table  0x0000000020003f40      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020003f40                sd_table
+ .bss.sf_table  0x0000000020004040      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000020004040                sf_table
+ .bss           0x0000000020004140       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss           0x000000002000415c       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x000000002000415c                __malloc_top_pad
+                0x0000000020004160                __malloc_current_mallinfo
+                0x0000000020004188                __malloc_max_sbrked_mem
+                0x000000002000418c                __malloc_max_total_mem
+ .bss           0x0000000020004190        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reent.o)
+                0x0000000020004190                errno
  .bss._app_driver
-                0x0000000020005774        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020004194        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._cdcd_itf
-                0x0000000020005778      0x2d8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000020004198      0x2d8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .bss._ctrl_xfer
-                0x0000000020005a50       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020004470       0x14 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._ubsd_mutexdef
-                0x0000000020005a64        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020004484        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_ctrl_buf
-                0x0000000020005a6c       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000002000448c       0x40 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._usbd_dev
-                0x0000000020005aac       0x53 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000020005aff        0x1 
+                0x00000000200044cc       0x53 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x000000002000451f        0x1 
  .bss._usbd_mutex
-                0x0000000020005b00        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x0000000020005b04        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020004520        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x0000000020004524        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_qdef_buf
-                0x0000000020005b08       0xc0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020005b08                _usbd_qdef_buf
+                0x0000000020004528       0xc0 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020004528                _usbd_qdef_buf
  .bss.alarm_callbacks
-                0x0000000020005bc8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200045e8       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.boot2_copyout
-                0x0000000020005bd8      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x0000000020005cd8        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000200045f8      0x100 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x00000000200046f8        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss.configured_freq
-                0x0000000020005cdc       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000200046fc       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.default_alarm_pool_entry_ids_high
-                0x0000000020005d04       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020004724       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x0000000020005d14       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020004734       0x30 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.desc_str.0
-                0x0000000020005d44       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .bss.drivers   0x0000000020005d6c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.filter    0x0000000020005d70        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020004764       0x28 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .bss.drivers   0x000000002000478c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.filter    0x0000000020004790        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.heap_end.0
-                0x0000000020005d74        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020004794        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .bss.hw_endpoints
-                0x0000000020005d78      0x400 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020004798      0x400 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.lazy_vsnprintf
-                0x0000000020006178        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020004b98        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss.load_value
-                0x000000002000617c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000020004b9c        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .bss.next_buffer_ptr
-                0x0000000020006180        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .bss.pools     0x0000000020006184       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020004ba0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .bss.pools     0x0000000020004ba4       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.retrieved_id
-                0x0000000020006194        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020004bb4        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.rotated_vertices
-                0x000000002000619c     0x1b24 CMakeFiles/engine3D.dir/index.cpp.obj
-                0x000000002000619c                rotated_vertices
+                0x0000000020004bbc     0x1374 CMakeFiles/engine3D.dir/index.cpp.obj
+                0x0000000020004bbc                rotated_vertices
  .bss.sf_clz_func
-                0x0000000020007cc0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020007cc0                sf_clz_func
+                0x0000000020005f30        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020005f30                sf_clz_func
  .bss.sleep_notifier
-                0x0000000020007cc4        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020005f34        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.stdio_usb_mutex
-                0x0000000020007cc8        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020005f38        0x8 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.target_hi
-                0x0000000020007cd0       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020005f40       0x10 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.uart_char_to_line_feed
-                0x0000000020007ce0        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000020007ce0                uart_char_to_line_feed
+                0x0000000020005f50        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000020005f50                uart_char_to_line_feed
  .bss.uart_instance
-                0x0000000020007ce4        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020005f54        0x4 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.usbd_serial_str
-                0x0000000020007ce8       0x11 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000020007cf9        0x3 
+                0x0000000020005f58       0x11 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000020005f69        0x3 
  .bss.user_irq_claimed
-                0x0000000020007cfc        0x2 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020005f6c        0x2 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss._app_driver_count
-                0x0000000020007cfe        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020005f6e        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_initialized
-                0x0000000020007cff        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020005f6f        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss.boot2_copyout_valid
-                0x0000000020007d00        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x0000000020007d01        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020005f70        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020005f71        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x0000000020007d02        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .bss.itf_num   0x0000000020007d03        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000020005f72        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .bss.itf_num   0x0000000020005f73        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .bss.low_priority_irq_num
-                0x0000000020007d04        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020005f74        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.timer_callbacks_pending
-                0x0000000020007d05        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020005f75        0x1 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x0000000020007d08                . = ALIGN (0x4)
- *fill*         0x0000000020007d06        0x2 
-                0x0000000020007d08                __bss_end__ = .
+                0x0000000020005f78                . = ALIGN (0x4)
+ *fill*         0x0000000020005f76        0x2 
+                0x0000000020005f78                __bss_end__ = .
 
-.heap           0x0000000020007d08      0x800
-                0x0000000020007d08                __end__ = .
-                0x0000000020007d08                end = __end__
+.heap           0x0000000020005f78      0x800
+                0x0000000020005f78                __end__ = .
+                0x0000000020005f78                end = __end__
  *(.heap*)
- .heap          0x0000000020007d08      0x800 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x0000000020008508                __HeapLimit = .
+ .heap          0x0000000020005f78      0x800 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020006778                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -2476,8 +2475,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x000000001000c10c        0x0
-                0x000000001000c10c                __flash_binary_end = .
+.flash_end      0x000000001000acec        0x0
+                0x000000001000acec                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2560,7 +2559,7 @@ LOAD CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/har
 LOAD CMakeFiles/engine3D.dir/home/aharnish/pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD pico-ssd1306/libpico_ssd1306.a
 LOAD pico-ssd1306/textRenderer/libssd1306_textRenderer.a
-LOAD /tmp/ccjvatmt.o
+LOAD /tmp/ccWzum8d.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2690,7 +2689,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000008dc       0x2c pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
  .ARM.attributes
-                0x0000000000000908       0x22 /tmp/ccjvatmt.o
+                0x0000000000000908       0x22 /tmp/ccWzum8d.o
  .ARM.attributes
                 0x000000000000092a       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

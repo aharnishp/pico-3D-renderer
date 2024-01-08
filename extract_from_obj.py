@@ -10,7 +10,10 @@ fileContents = ""
 filename = "theCube.obj"
 filename = "water-tap.obj"
 filename = "pentagon-prism.obj"
+filename = "nfc-card.obj"
 filename = "reduced-plant.obj"
+filename = "pentagon-prism.obj"
+filename = "reduced-plant-pot.obj"
 
 with open((filename), "r") as f:
     fileContents = f.read()

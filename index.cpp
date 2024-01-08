@@ -291,17 +291,19 @@ int main () {
     while(true){
 
 
-        project2D(display, 1, 75, screenWidth/2, screenHeight/2);
+        // project2D(display, 1, 75, screenWidth/2, screenHeight/2);    // scale for the plant
+        project2D(display, 1, 90, screenWidth/2, screenHeight/2);    // scale for the plant
+        // project2D(display, 1, 15, screenWidth/2, screenHeight/2);
 
-        rotate_model_from_default((rotation_deg){0,rotation_angle,0});
-        rotation_angle++;
-        if(rotation_angle > 360){
+        rotate_model_from_default((rotation_deg){0,rotation_angle/3,rotation_angle});
+        rotation_angle+=1;
+        if(rotation_angle > 1080){
             rotation_angle = 0;
         }
 
 
 
-        /// retreive Potentiometer Value
+        /// retrieve Potentiometer Value
         // adc_select_input(1); // confirm ADC is reading from potentiometer
         // result = adc_read();
         // adc_select_input(0);   // keep ready for next read
