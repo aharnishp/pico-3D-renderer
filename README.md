@@ -12,6 +12,14 @@ Projects orthographic view of given 3D model on single colour OLED screen, writt
 - Compile using cmake
 - Copy the file .uf2 file to Raspberry Pi Pico
 
+- You may use ```rotate_model_from_default()``` function in between draw calls to animate the object as needed.
+
+  
+
+https://github.com/aharnishp/pico-3D-renderer/assets/69157507/de2a1740-ebd4-47eb-8cb3-2c3d8ff7163e
+
+
+
 ### Test without RPi Pico
 [This repository](https://github.com/aharnishp/3D-to-2D-Projection) uses same architecture for drawing, only the printing is done on char buffer instead of oled buffer and printed in stdout.
 
